@@ -4,6 +4,7 @@ import fake_useragent
 import get_url
 import csv
 
+
 user = fake_useragent.UserAgent().random
 headers = {
     'user-agent': user}
